@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const link=<>
         <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='blog'>Blogs</NavLink></li>
+        <li><NavLink to='blogs'>Blogs</NavLink></li>
         <li><NavLink to='/bookmarks'>Bookmarks</NavLink></li>
     </>
     const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');

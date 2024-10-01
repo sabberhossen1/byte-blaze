@@ -3,9 +3,9 @@
 const BookMarks = () => {
     return (
         <div>
-            
+            this is bookmarks
         </div>
     );
 };
 
-export default BookMarks;https://sunplex.net/games/far-cry-3-blackbox-repack/
+export default BookMarks;
